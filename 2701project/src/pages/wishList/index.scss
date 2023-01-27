@@ -1,0 +1,73 @@
+#wish-list{
+    background-image:
+    linear-gradient(to bottom, rgb(255, 255, 255, 0), rgba(255, 255, 255, 0)),
+    url('https://mobirise.com/extensions/floram4/floral-studio/assets/images/background2.jpg');
+    background-repeat: repeat;
+    background-size: cover;
+    padding-bottom: 40px;
+    .container{
+        .all-remove-btn{
+            background-color: #d8e3d5;
+            border: none;
+            width: 150px;
+            height: 45px;
+            font-size: 16px;
+            font-family: 'Quicksand', sans-serif;
+            font-weight: 400;
+            color: #26715d;
+            transition: all 0.5s;
+            margin: 10px 0;
+            &:hover{
+                cursor: pointer;
+                background-color: #98c08c;
+            }
+        }
+        .lists{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: center;
+            gap: 30px;
+            margin: 70px 0;
+            .list{
+                .wish-img{
+                    width: 300px;
+                    height: 300px;
+                }
+                .wish-h2{
+                    font-size: 22px;
+                    color: #26715d;
+                    font-family: 'Quicksand', sans-serif;
+                    font-weight: 400;
+                    text-align: center;
+                    margin-top: 10px;
+                }
+                .wish-price{
+                    font-size: 18px;
+                    color: #26715d;
+                    font-family: 'Crimson Text', serif;
+                    font-weight: 400;
+                    text-align: center;
+                    margin: 10px 0;
+                }
+                .remove-btn{
+                    background-color: #d8e3d5;
+                    border: none;
+                    width: 150px;
+                    height: 45px;
+                    font-size: 16px;
+                    font-family: 'Quicksand', sans-serif;
+                    font-weight: 400;
+                    color: #26715d;
+                    transition: all 0.5s;
+                    margin-top: 10px;
+                    margin-left: 80px;
+                    &:hover{
+                        cursor: pointer;
+                        background-color: #98c08c;
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,77 @@
+#details{
+    .container{
+        .details{
+            margin: 60px 0;
+            border: 2px solid #26715d;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 70vh;
+            .detail{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                flex-direction: column;
+                border: 2px solid #26715d;
+                padding: 20px 0;
+                width: 90%;
+                height: 90%;
+                .detail-img{
+                    width: 200px;
+                    height: 200px;
+                    border-radius: 19px;
+                }
+                .detail-h3{
+                    font-size: 22px;
+                    color: #26715d;
+                    font-family: 'Quicksand', sans-serif;
+                    font-weight: 400;
+                    text-align: center;
+                    margin-top: 10px;
+                }
+                .detail-p{
+                    font-size: 18px;
+                    color: #26715d;
+                    font-family: 'Crimson Text', serif;
+                    font-weight: 400;
+                    text-align: center;
+                    margin: 10px 0;
+                }
+                .btn{
+                    display: flex;
+                    column-gap: 45px;
+                    .detail-btn-back{
+                        background-color: #d8e3d5;
+                        border: none;
+                        width: 150px;
+                        height: 45px;
+                        font-size: 16px;
+                        font-family: 'Quicksand', sans-serif;
+                        font-weight: 400;
+                        color: #26715d;
+                        transition: all 0.5s;
+                        &:hover{
+                            cursor: pointer;
+                            background-color: #98c08c;
+                        }
+                    }
+                    .detail-btn-del{
+                        background-color: #d8e3d5;
+                        border: none;
+                        width: 150px;
+                        height: 45px;
+                        font-size: 16px;
+                        font-family: 'Quicksand', sans-serif;
+                        font-weight: 400;
+                        color: #26715d;
+                        transition: all 0.5s;
+                        &:hover{
+                            cursor: pointer;
+                            background-color: #98c08c;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

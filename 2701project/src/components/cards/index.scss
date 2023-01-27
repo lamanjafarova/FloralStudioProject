@@ -1,0 +1,112 @@
+#flower{
+    .container{
+        .cards-h6{
+            font-size: 18px;
+            color: #26715d;
+            font-family: 'Crimson Text', serif;
+            font-weight: 400;
+            text-align: center;
+            line-height: 25px;
+        }
+        .cards-h1{
+            font-size: 46px;
+            color: #26715d;
+            font-family: 'Quicksand', sans-serif;
+            font-weight: 400;
+            text-align: center;
+            margin: 5px 0;
+        }
+        .search-sort{
+            display: flex;
+            justify-content: space-around;
+            margin-top: 20px;
+            .search-input{
+                border: none;
+                border-bottom: 1px solid #26715d;
+                font-size: 15px;
+                font-family: 'Crimson Text', serif;
+                width: 300px;
+                height: 40px;
+                padding-left: 15px;
+            }
+            .sort-btn{
+                background-color: transparent;
+                border: 1px solid #98c08c;
+                border-radius: 19px;
+                width: 150px;
+                height: 45px;
+                font-size: 16px;
+                font-family: 'Quicksand', sans-serif;
+                font-weight: 400;
+                color: #26715d;
+                transition: all 0.5s;
+                &:hover{
+                    cursor: pointer;
+                    background-color: #98c08c;
+                }
+            }
+        }
+        .cards{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-wrap: wrap;
+            column-gap: 30px;
+            row-gap: 45px;
+            margin: 70px 0;
+            .card{
+                .card-img{
+                    width: 335px;
+                    height: 335px;
+                }
+                .card-h4{
+                    font-size: 22px;
+                    color: #26715d;
+                    font-family: 'Quicksand', sans-serif;
+                    font-weight: 400;
+                    text-align: center;
+                    margin-top: 10px;
+                }
+                .card-p{
+                    font-size: 18px;
+                    color: #26715d;
+                    font-family: 'Crimson Text', serif;
+                    font-weight: 400;
+                    text-align: center;
+                    margin: 10px 0;
+                }
+                .del-add{
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    column-gap: 10px;
+                    .del-btn{
+                        border: none;
+                        cursor: pointer;
+                        i{
+                            color: #26715d;
+                            font-size: 15px;
+                        }
+                    }
+                    .add{
+                        cursor: pointer;
+                        border: none;
+                        transition: all 0.5s;
+                        i{
+                            color: #ff0800;
+                            font-size: 15px;
+                        }
+                    }
+                    .not-add{
+                        cursor: pointer;
+                        border: none;
+                        transition: all 0.5s;
+                        i{
+                            color: #26715d;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

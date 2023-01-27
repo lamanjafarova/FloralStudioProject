@@ -1,0 +1,217 @@
+#home{
+    .home-page{
+        width: 100%;
+        .image-1{
+            width: 100%;
+            height: 750px;
+            position: relative;
+            .text{
+                position: absolute;
+                top: 40%;
+                left: 33%;
+                .carusel-h2{
+                    font-size: 46px;
+                    font-family: 'Quicksand', sans-serif;
+                    color: #26715d;
+                    line-height: 35px;
+                    font-weight: 400;
+                }
+            }
+            .img-1{
+                width: 100%;
+            }
+        }
+        .Section-1{
+            margin: 150px 0;
+            background-image:
+            linear-gradient(to bottom, rgb(255, 255, 255, 0), rgba(255, 255, 255, 0)),
+            url('https://mobirise.com/extensions/floram4/floral-studio/assets/images/background2.jpg');
+            background-repeat: repeat;
+            background-size: cover;
+            height: 700px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            .container{
+                .mission{
+                    display: flex;
+                    justify-content: space-around;
+                    margin: 150px 0;
+                    .our-mission{
+                        display: flex;
+                        .left-side{
+                            background-color: #26715d;
+                            width: 50%;
+                            display: flex;
+                            justify-content: center;
+                            align-items: center;
+                            flex-direction: column;
+                            row-gap: 20px;
+                            .left-side-h3{
+                                font-size: 46px;
+                                color: #fff;
+                                font-family: 'Quicksand', sans-serif;
+                            }
+                            .left-side-p{
+                                font-size: 16px;
+                                color: #fff;
+                                font-family: 'Quicksand', sans-serif;
+                                width: 75%;
+                                text-align: center;
+                                line-height: 25px;
+                            }
+                            .left-side-btn{
+                                background-color: #d8e3d5;
+                                color: #5b9381;
+                                font-size: 16px;
+                                font-family: 'Quicksand', sans-serif;
+                                width: 150px;
+                                height: 50px;
+                                border: none;
+                                transition: all 0.5s;
+                                &:hover{
+                                    cursor: pointer;
+                                    background-color: #b0c4ab;
+                                }
+                            }
+                        }
+                        .right-side{
+                            width: 50%;
+                            .right-side-img{
+                                height: 100%;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        .events{
+            margin: 70px 0;
+            .container{
+                .event-h6{
+                    font-size: 18px;
+                    color: #26715d;
+                    font-family: 'Crimson Text', serif;
+                    font-weight: 400;
+                    text-align: center;
+                    line-height: 25px;
+                }
+                .event-h1{
+                    font-size: 46px;
+                    color: #26715d;
+                    font-family: 'Quicksand', sans-serif;
+                    font-weight: 400;
+                    text-align: center;
+                    margin: 5px 0;
+                }
+            }
+            .event-cards{
+                display: flex;
+                justify-content: space-between;
+                margin-top: 70px;
+                .event-card{
+                    width: 340px;
+                    height: 350px;
+                    border: 1px solid #26715d;
+                    background-color: #fef1e6;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    flex-direction: column;
+                    .event-p{
+                        font-size: 40px;
+                        font-family: 'Crimson Text', serif;
+                        color: #26715d;
+                        .event-span{
+                            font-size: 18px;
+                            font-family: 'Quicksand', sans-serif;
+                        }
+                    }
+                    .event-h5{
+                        font-size: 22px;
+                        color: #26715d;
+                        font-family: 'Quicksand', sans-serif;
+                        font-weight: 400;
+                        margin: 7px 0;
+                    }
+                    .event-p-text{
+                        font-size: 16px;
+                        color: #26715d;
+                        font-family: 'Quicksand', sans-serif;
+                        font-weight: 400;
+                        margin: 10px 0;
+                        width: 85%;
+                        text-align: center;
+                    }
+                    .event-btn{
+                        background-color: #d8e3d5;
+                        border: none;
+                        width: 150px;
+                        height: 45px;
+                        font-size: 16px;
+                        font-family: 'Quicksand', sans-serif;
+                        font-weight: 400;
+                        color: #26715d;
+                        transition: all 0.5s;
+                        margin: 10px 0;
+                        &:hover{
+                            cursor: pointer;
+                            background-color: #98c08c;
+                        }
+                    }
+                }
+            }
+        }
+        .our-team{
+            margin: 70px 0;
+            .container{
+                .our-teams{
+                    .team-h6-title{
+                        font-size: 18px;
+                        color: #26715d;
+                        font-family: 'Crimson Text', serif;
+                        font-weight: 400;
+                        text-align: center;
+                        line-height: 25px;
+                    }
+                    .team-h1-title{
+                        font-size: 46px;
+                        color: #26715d;
+                        font-family: 'Quicksand', sans-serif;
+                        font-weight: 400;
+                        text-align: center;
+                        margin: 5px 0;
+                    }
+                    .our-team-text{
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        margin: 25px 0;
+                        .team{
+                            .team-img{
+                                width: 350px;
+                                height: 350px;
+                            }
+                            .team-h2{
+                                font-size: 22px;
+                                color: #26715d;
+                                font-family: 'Quicksand', sans-serif;
+                                font-weight: 400;
+                                text-align: center;
+                                margin-top: 20px;
+                            }
+                            .team-h6{
+                                font-size: 18px;
+                                color: #26715d;
+                                font-family: 'Crimson Text', serif;
+                                font-weight: 400;
+                                text-align: center;
+                                margin: 10px 0;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,54 @@
+.add-flower{
+    background-image:
+    linear-gradient(to bottom, rgb(255, 255, 255, 0), rgba(255, 255, 255, 0)),
+    url('https://mobirise.com/extensions/floram4/floral-studio/assets/images/background2.jpg');
+    background-repeat: repeat;
+    background-size: cover;
+    .container{
+        .add-product{
+            height: 60vh;
+            .add-h1{
+                font-size: 46px;
+                color: #26715d;
+                font-family: 'Quicksand', sans-serif;
+                font-weight: 400;
+                text-align: center;
+                padding-top: 30px;
+                margin-bottom: 20px;
+            }
+            .form{
+                text-align: center;
+                padding: 55px 50px;
+                .input{
+                    padding: 15px 0;
+                    input{
+                        border: none;
+                        width: 45%;
+                        border-bottom: 1px solid #26715d;
+                        border-radius: 17px;
+                        padding: 0 15px;
+                        font-family: 'Crimson Text', serif;
+                        color: #26715d;
+                        background-color: transparent;
+                    }
+                }
+                .add-btn{
+                    width: 45%;
+                    height: 45px;
+                    background-color: #26715d;
+                    color: #fff;
+                    font-size: 18px;
+                    font-family: 'Quicksand', sans-serif;
+                    font-weight: 700;
+                    border: none;
+                    border-radius: 10px;
+                    transition: all 0.4s;
+                    &:hover{
+                        background-color: #98c08c;
+                        cursor: pointer;
+                    }
+                }
+            }
+        }
+    }
+}
